@@ -1,0 +1,41 @@
+# macOS temporary files
+.DS_Store
+**/.DS_Store
+
+# R and RStudio temporary files
+.Rhistory
+**/.Rhistory
+.Rapp.history
+**/.Rapp.history
+.Rproj.user/
+**/.Rproj.user/
+
+# Python temporary files and environments
+__pycache__/
+**/__pycache__/
+.venv/
+**/.venv/
+*.pyc
+
+# Local editor settings
+.vscode/
+**/.vscode/
+
+# Restricted patient datasets and derived data
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.rds
+*.RData
+*.rda
+
+# Generated outputs
+outputs/
+
+# Generated figures and documents
+*.png
+*.jpg
+*.jpeg
+*.pdf
